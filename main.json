@@ -1,0 +1,22 @@
+{
+    "api":[
+        {
+            "id":"1",
+            "image":"images/intro-01.jpg",
+            "name":"ROMANTIC RESTAURANT",
+            "category":"Phasellus lorem enim, luctus ut velit eget, con- vallis egestas eros."
+        }
+        {
+            "id":"2",
+            "image":"images/intro-02.jpg",
+            "name":"DELICIOUS FOOD",
+            "category":"Aliquam eget aliquam magna, quis posuere risusac justo ipsum nibh urna."
+        }
+        {
+            "id":"3",
+            "image":"images/intro-04.jpg",
+            "name":"RED WINES YOU LOVE",
+            "category":"Sed ornare ligula eget tortor tempor, quis porta tellus dictum."
+        }
+    ]
+}

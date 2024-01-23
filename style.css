@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 50px;
+    width: 100%;
+}
+.nav{
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    display: inline;
+    margin-top: 30px;
+    margin-left: -90px;
+}
+.navbar .siyahi ul li{
+    line-height: 10px;
+    padding: 5px 0;
+    text-decoration: none;
+
+}
+.navbar .siyahi ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 18px;
+}
+.navbar ul li a{
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgb(255,255,255);
+    line-height: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar .mobile ul li{
+    display: inline;
+}
+.navbar .icons{
+    color: white;
+    gap: 10px;
+}
+@media screen  and (max-width:425px){
+    .navbar ul li{
+        display: none;
+    }
+    .two .text h2{
+        font-size: 30px;
+    }
+    .two .text h1{
+        font-size: 30px;
+    }
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/slide1-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.two h2{
+    font-weight: 400px;
+    font-size: 60px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    line-height: 66px;
+    text-decoration: none;
+    transform: none;
+    font-family:"Courgette";
+}
+.two h1{
+   
+    font-weight: 700px;
+    font-size:90px ;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    line-height: 99px;
+    text-decoration: none;
+    transform: none;
+    font-family:"Poppins";
+    letter-spacing: 10px;
+}
+.two button{
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.two button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.third{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.third .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.third img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.third h3{
+   
+    font-size: 30px;
+    color: rgb(214,28 ,34 );
+    
+}
+.third h1{
+    
+    font-size: 50px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.third p{
+    
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.third .setir p{
+    color: rgb(34, 34, 34);
+    font-size: 12px;
+}
+.third .setir{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:425px) {
+     .third {
+       
+        flex-direction: column;
+        
+     }
+    
+}
+.four{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.four img{
+    width: 380px;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.four h3{
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    cursor: pointer;
+}
+.four h3:hover{
+    color: red;
+}
+.four p{
+    color: rgb(102, 102, 102);
+    font-weight: 400px;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+.four .setir{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width:425px){
+    .four{
+        flex-direction: column;
+    }
+}
+.five{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.five p{
+    font-weight: 400px;
+    font-size: 30px;
+    color: rgb(214, 28, 34);
+    font-family: "italic";
+    border: 1px solid red;
+}
+.five h1{
+    font-weight: 700px;
+    font-size: 50px;
+    color: black;
+}
+.five .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    
+}
+@media screen and (max-width:425px) {
+    .five .title{
+        width: 50%;
+    }
+}
+.six{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.six img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 5px solid red;
+}
+.six p{
+    font-weight: 400px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.six .setir i{
+    color: red;
+}
+@media screen and (max-width:425px){
+    .six p{
+        font-weight: 200px;
+    }
+}
+.seven{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seven p{
+    font-weight: 400px;
+    font-size: 30px;
+    color: rgb(214, 28, 34);
+    font-family: "italic";
+    border: 1px solid red;
+}
+.seven h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.seven .title{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    
+}
+.eight{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.eight.list{
+    display: flex;
+    gap: 10px;
+}
+.eight h4{
+    font-size:22px ;
+    font-weight:500px ;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.eight h4:hover{
+    color: rgb(214, 28, 34);
+}
+.eight img{
+    width: 380px;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.eight .setir{
+    display: flex;
+    gap: 10px;
+}
+.eight p{
+    color: rgb(102, 102, 102);
+    font-weight: 400px;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+@media screen and (max-width:425px){
+    .eight {
+        flex-direction: column;
+    }
+}
+.nine{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://preview.colorlib.com/theme/pato/images/icons/pattern1.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nine .title{
+    width: 400px;
+    border: 1px solid red;
+}
+.nine input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.nine button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+@media screen and (max-width:425px) {
+    .nine{
+        flex-direction: column;
+    }
+}
+.ten{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ten img{
+    width: 200px;
+    height: 200px;
+}
+.ten h2{
+    color: white;
+    font-size: 18px;
+}
+.ten p{
+    color: rgb(153, 153, 153);
+}
+@media screen and (max-width:425px) {
+    .ten {
+        flex-direction: column;
+    }
+}
+.eleven{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.eleven .icons{
+    color: white;
+}
+@media screen  and (max-width:425px){
+    .eleven {
+        flex-direction: column;
+    }
+}
